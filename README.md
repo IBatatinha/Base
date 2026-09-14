@@ -31,5 +31,3 @@ sv_licenseKey changeme # (https://portal.cfx.re)
   add_ace group.admin command.quit deny
   add_principal identifier.steam:STEAM_HEX group.admin
 ```
-
-
