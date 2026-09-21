@@ -2,15 +2,13 @@
 -- Altering or recreating for local use only is strongly discouraged.
 
 version '1.0.0'
-description 'A basic resource for storing player identifiers.'
 author 'Cfx.re <root@cfx.re>'
+description 'Example spawn points for FiveM with a "hipster" model.'
 repository 'https://github.com/citizenfx/cfx-server-data'
 
-fx_version 'bodacious'
-game 'common'
+resource_type 'map' { gameTypes = { ['fivem'] = true } }
 
-server_script 'server.lua'
+map 'map.lua'
 
-provides {
-    'cfx.re/playerData.v1alpha1'
-}
+fx_version 'adamant'
+games { 'gta5', 'gta5enhanced' }
